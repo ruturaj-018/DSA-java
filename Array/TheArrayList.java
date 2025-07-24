@@ -2,6 +2,17 @@ package Array;
 import java.util.*;
 public class TheArrayList {
 
+// These are the operations of the Array List.
+
+//    Add element: numbers.add(20); Adds 20 to the end
+//    Get element: numbers.get(0); Gets element at index 0
+//    Set element: numbers.set(0, 18); Replace element at index 0
+//    Remove element: numbers.remove(2);  Remove element at index 2
+//    Size of list: numbers.size(); Returns no. of elements
+//    Check if empty: numbers.isEmpty(); Returns true if list is empty
+//    Clean all elements: numbers.clear(); Empties the list
+//    Check if contains: numbers.contains(20); Returns true if 20 is found
+
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>(8);
 
