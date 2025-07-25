@@ -1,6 +1,6 @@
 package Searching;
 public class Linear_search {
-    
+
 //Print Method
     static void print(int[] arr){
         System.out.print("Array : ");
