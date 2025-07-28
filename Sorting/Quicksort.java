@@ -21,13 +21,13 @@ public class Quicksort {
             quicksort(arr,index+1,end);
         }
     }
-
+//Swap Method
     static void swap(int[] arr,int first,int second){
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
     }
-
+//Print Method
     static void print(int[] arr){
         System.out.print("Array : ");
         for(int num : arr){
